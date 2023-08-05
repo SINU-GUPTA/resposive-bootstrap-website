@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@600&family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* here we style nav bar */
+
+nav {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw 5vw;
+  align-items: center;
+}
+
+.logo img {
+  width: 6.5vw;
+}
+
+.right-logo i {
+  font-size: 2.5vw;
+  min-width: 1em;
+  width: auto;
+  height: 1em;
+  vertical-align: top;
+}
+
+/* here we style content section 1 */
+
+.content1 {
+  width: 100%;
+  height: 71.7vw;
+  background-color: #ddcebb;
+  position: relative;
+}
+
+.content1 h1 {
+  font-size: 4.7vw;
+  font-weight: 800;
+  font-family: "roboto";
+  text-align: right;
+  padding-top: 6vw;
+  padding-right: 5vw;
+}
+
+.img img {
+    width: 54.7vw;
+    padding-left: 4vw;
+    padding-top: 1vw;
+    margin-left: 5.5vw;
+}
+
+.line1 {
+    display: flex;
+    position: absolute;
+    top: 24vw;
+    left: 45vw;
+}
+
+.box1 {
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+  width: 35%;
+  text-align: center;
+  height: 20vw;
+  background-color: #fff;
+  margin: 0vw 2vw;
+  border-radius: 0.5vw;
+}
+.box2 {
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+  width: 35%;
+  text-align: center;
+  height: 20vw;
+  background-color: #fff;
+  margin: 0vw 1vw;
+  border-radius: 0.5vw;
+
+}
+
+.line2 {
+  display: flex;
+  position: absolute;
+  top: 50vw;
+  left: 45vw;
+  margin-top: -3vw;
+}
+
+.box3 {
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+  width: 35%;
+  text-align: center;
+  height: 20vw;
+  background-color: #fff;
+  border-radius: 0.5vw;
+
+  margin: 0vw 2vw;
+}
+.box4 {
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+  width: 35%;
+  height: 20vw;
+  text-align: center;
+  margin: 0vw 1vw;
+  background-color: #fff;
+  border-radius: 0.5vw;
+
+}
+
+.line1 i,
+.line2 i {
+  font-size: 4.5vw;
+  margin-top: 2vw;
+}
+
+.line1 h1
+{
+
+    font-size: 2vw;
+    font-family: 'roboto';
+    margin-top: -3vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.line1 p{
+
+    font-style: italic;
+    padding: 1vw;
+}
+.line2 h1
+{
+
+    font-size: 2vw;
+    font-family: 'roboto';
+    margin-top: -3vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.line2 p{
+
+    font-style: italic;
+    padding: 1vw;
+}
+
+.box3 h1{
+
+    margin-right: 1vw;
+
+
+}
+
+
+/* here we style content 2  */
+
+.content2
+{
+width: 100%;
+margin-top: 4vw;
+
+}
+
+.content2 h1{
+font-family: 'roboto';
+font-size: 4vw;
+font-weight: 800;
+text-align: center;
+}
+
+
+
+.section1
+{
+width: 100%;
+display: flex;
+margin-bottom: 1vw;
+text-align: center;
+justify-content: center;
+align-items: center;
+margin-top: 4vw;
+
+
+}
+
+.b1
+{
+width: 25%;
+height: 45vh;
+padding: 2vw;
+
+
+}
+.b2
+{
+width: 25%;
+height: 45vh;
+padding: 2vw;
+background-color: #EE7524;
+border-radius: 0.5vw;
+
+
+}
+.b3
+{
+width: 25%;
+height:45vh;
+padding: 2vw;
+
+
+}
+
+.section2
+{
+width: 100%;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.b3
+{
+width: 25%;
+height: 45vh;
+padding: 2vw;
+
+}
+.b4
+{
+width: 25%;
+height: 45vh;
+padding: 2vw;
+
+}
+.b5
+{
+width: 25%;
+height:45vh;
+padding: 2vw;
+
+}
+
+.section1 h1, .section2 h1 , .section1 h2 , .section2 h2
+{
+margin:1vw 0vw;
+text-align-last: center;
+font-family: 'roboto';
+color: #EE7524;
+
+
+}
+
+.section1 h1 , .section2 h1{
+
+font-size: 3.5vw;
+font-weight: 600;
+
+}
+.section1 h2 , .section2 h2
+{
+
+    font-size: 1.5vw;
+    font-family: 800;
+}
+
+
+.section1 p , .section2 p{
+
+    
+font-size: 1vw;
+color: #868686;
+font-style: italic;
+line-height: 2vw;
+}
+
+.b2 h1{
+    color: #fff;
+
+}
+
+.b2 h2{
+    color: #fff;
+
+}
+.b2 p{
+    color: #fff;
+
+}
+
+
+/* here we style content3 part  */
+
+.content3
+{
+
+width: 100%;
+display: flex;
+position: relative;
+
+}
+
+.content3 img
+{
+width: 100%;
+margin-top: 4vw;
+
+
+}
+
+.bx1{
+    width: 25%;
+    height: 45vh;
+    background-color: blue;
+    position: absolute;
+}
+.bx2{
+    width: 25%;
+    height: 45vh;
+    background-color: blue;
+    position: absolute;
+
+}
+.bx3{
+    width: 25%;
+    height: 45vh;
+    background-color: blue;
+    position: absolute;
+
+}
+.bx4{
+    width: 25%;
+    height: 45vh;
+    background-color: blue;
+    position: absolute;
+
+}
+
