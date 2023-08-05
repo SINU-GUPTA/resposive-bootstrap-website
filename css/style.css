@@ -315,46 +315,70 @@ line-height: 2vw;
 
 .content3
 {
-
-width: 100%;
-display: flex;
 position: relative;
-
+width: 100%;
 }
 
-.content3 img
-{
-width: 100%;
-margin-top: 4vw;
+.content3 img{
+  width: 100%;
+  margin-top: 3vw;
+}
 
+.bx1, .bx2, .bx3, .bx4{
+
+width: 22%;
+height: 20vw;
+position: absolute;
+top: 0;
+left: 0;
+padding: 2vw 3vw;
+font-family: 'roboto';
+letter-spacing: 1px;
+border-radius: 0.5vw;
 
 }
 
 .bx1{
-    width: 25%;
-    height: 45vh;
-    background-color: blue;
-    position: absolute;
+
+  left: 12vw;
+  margin-top:7vw ;
+  background-color: #fff;
 }
 .bx2{
-    width: 25%;
-    height: 45vh;
-    background-color: blue;
-    position: absolute;
-
+  
+  left: 36vw;
+  margin-top:7vw ;
+  background: rgba(0, 0, 0, 0.5);
+  
+  
 }
 .bx3{
-    width: 25%;
-    height: 45vh;
-    background-color: blue;
-    position: absolute;
-
+  
+  background-color: #EE7524;
+  top: 29vw;
+  left: 12vw;
 }
 .bx4{
-    width: 25%;
-    height: 45vh;
-    background-color: blue;
-    position: absolute;
-
+  top: 29vw;
+  left: 36vw;
+  background-color: #fff;
 }
 
+.content3 h1{
+
+  font-size: 1.5vw;
+  text-align: left;
+}
+
+.content3 span
+{
+font-size: 1vw;
+padding-top: 2vw;
+}
+
+hr{
+width: 2.7vw;
+align-items: center;
+color: black;
+
+}
